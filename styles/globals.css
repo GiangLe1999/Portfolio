@@ -18,6 +18,11 @@
   color: #f13024;
 }
 
+.swiper-button-prev,
+.swiper-button-next {
+  transform: scale(0.5) translateY(-50%) !important;
+}
+
 @layer base {
   body {
     @apply bg-secondary overflow-hidden leading-relaxed;
